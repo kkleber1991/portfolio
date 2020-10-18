@@ -7,11 +7,10 @@ import { CgWebsite } from 'react-icons/cg'
 
 export default function MyPage() {
     return (
-        <Box w="100%" mx="auto" justifyContent="center" display="flex" >
+        <HStack w="100%" mx="auto" justifyContent="center" display="flex" bg="white" >
             <VStack>
-                <Heading>Kedllon Solutions</Heading>
                 <Divider py={3} />
-                <Text pt={6} >Se você precisa criar um Site, Anunciar no Google ou Facebook, eu tenho a solução ideal para você.</Text>
+                <Text >Se você precisa criar um Site, Anunciar no Google ou Facebook, eu tenho a solução ideal para você.</Text>
                 <Divider py={3} />
                 <HStack w="100%">
                     <Box w="100%" mx="auto" justifyContent="center" display="flex" >
@@ -87,6 +86,6 @@ export default function MyPage() {
                     </Box>
                 </HStack>
             </VStack>
-        </Box>
+        </HStack>
     )
 }

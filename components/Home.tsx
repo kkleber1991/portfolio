@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Tab, TabList, TabPanel, TabPanels, Tabs, VStack, Text } from '@chakra-ui/core';
+import { Box, Tab, TabList, TabPanel, TabPanels, Tabs, VStack, Text, Heading } from '@chakra-ui/core';
 import { IoIosHome } from "react-icons/io";
 import { SiAboutDotMe } from "react-icons/si";
 import { GoProject } from "react-icons/go";
@@ -13,7 +13,7 @@ export default function Home() {
     return (
         <Box w="100%" mx="auto" justifyContent="center" display="flex" >
             <Tabs isFitted variant="enclosed" w="100%" >
-                <TabList mb="1em">
+                <TabList mb="1em" >
                     <Tab
                         _selected={{ color: "#FEAE0B", bg: "white" }}>
                         <VStack>
@@ -36,17 +36,22 @@ export default function Home() {
                         </VStack>
                     </Tab>
                 </TabList>
+                <Box h={150} />
                 <TabPanels>
                     <TabPanel>
+                        <Box h={15} bg="#FEAE0B" />
                         <MyPage />
                     </TabPanel>
                     <TabPanel>
+                        <Box h={15} bg="#FEAE0B" />
                         <Sobre />
                     </TabPanel>
                     <TabPanel>
+                        <Box h={15} bg="#FEAE0B" />
                         <Portfolio />
                     </TabPanel>
                     <TabPanel>
+                        <Box h={15} bg="#FEAE0B" />
                         <Contato />
                     </TabPanel>
                 </TabPanels>
