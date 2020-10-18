@@ -1,7 +1,6 @@
 import { Text, Box, Button, IconButton, Stack, VStack, Image, Switch, Icon, HStack, Center, useDisclosure } from "@chakra-ui/core"
 import React from "react";
 import { BsFillBrightnessHighFill, BsList, BsMoon, BsPlus } from "react-icons/bs";
-import Disfar from "./disfar/Disfar"
 
 const Menu = () => {
   return (
