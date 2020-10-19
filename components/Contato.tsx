@@ -32,6 +32,7 @@ export default function Contato() {
                 <Textarea />
             </FormControl></Box>
             <Button borderRadius={90} w="100%" maxW={450} bg="#FEAE0B" size="lg">Enviar formulário</Button>
+            <Spacer />
         </VStack >
         </Box>
     )
