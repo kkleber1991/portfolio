@@ -1,15 +1,15 @@
-import { Box, Heading, Text } from '@chakra-ui/core'
+import { Box, Text, Center } from '@chakra-ui/core'
 import React from 'react'
 
 export default function Sobre() {
     return (
-        <Box bg="white" boxShadow="lg" align="center" >
+        <Box bg="white" boxShadow="lg" >
             <Text
                 align="center"
                 fontSize="4xl" >Quem é
             <Text fontWeight="bold" color="#FEAE0B" >KEDLLON KLEBER</Text>
             </Text><br /><br /><br />
-            <Text color="black" >
+            <Text color="black" textAlign="center" >
                 Empreendedor com mais de 8 anos de experiência em Marketing Digital.<br />
             Progamador em React, Dart e outras,
             comecei a minha carreira em 2012,

@@ -8,7 +8,6 @@ import { CgWebsite } from 'react-icons/cg'
 export default function MyPage() {
     return (
         <HStack
-            align="center"
             w="100%"
             mx="auto"
             justifyContent="center"
@@ -19,7 +18,7 @@ export default function MyPage() {
                 <Divider py={3} />
                 <Text >Se você precisa criar um Site, Anunciar no Google ou Facebook, eu tenho a solução ideal para você.</Text>
                 <Divider py={3} />
-                <HStack w="100%">
+                <HStack w="100%" >
                     <Box w="100%" mx="auto" justifyContent="center" display="flex" align="center" >
                         <Tabs isFitted variant="enclosed" w="100%">
                             <TabList mb="1em">
