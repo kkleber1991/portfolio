@@ -17,22 +17,29 @@ export default function Home() {
                     <Tab
                         _selected={{ color: "#FEAE0B", bg: "white" }}>
                         <VStack>
-                            <IoIosHome size={35} />
-                            <Text>Home</Text>
+                            <IoIosHome size={35} color="#FEAE0B" />
+                            <Text fontWeight="bold" color="#FEAE0B" >Home</Text>
                         </VStack>
                     </Tab>
                     <Tab
                         _selected={{ color: "#FEAE0B", bg: "white" }}>
-                        <VStack><SiAboutDotMe size={35} />
-                            <Text>Sobre</Text></VStack></Tab>
-                    <Tab
-                        _selected={{ color: "#FEAE0B", bg: "white" }}>
-                        <VStack><GoProject size={35} /><Text>Projetos</Text>
+                        <VStack>
+                            <SiAboutDotMe size={35} color="#FEAE0B" />
+                            <Text fontWeight="bold" color="#FEAE0B" >Sobre</Text>
                         </VStack>
                     </Tab>
                     <Tab
                         _selected={{ color: "#FEAE0B", bg: "white" }}>
-                        <VStack><AiOutlineContacts size={35} /><Text>Contato</Text>
+                        <VStack>
+                            <GoProject size={35} color="#FEAE0B" />
+                            <Text fontWeight="bold" color="#FEAE0B" >Projetos</Text>
+                        </VStack>
+                    </Tab>
+                    <Tab
+                        _selected={{ color: "#FEAE0B", bg: "white" }}>
+                        <VStack>
+                            <AiOutlineContacts size={35} color="#FEAE0B" />
+                            <Text fontWeight="bold" color="#FEAE0B" >Contato</Text>
                         </VStack>
                     </Tab>
                 </TabList>

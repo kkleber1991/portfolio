@@ -38,10 +38,10 @@ export default function MyPage() {
                                 </TabPanel>
                                 <TabPanel>
                                     <VStack>
-                                        <Heading>Atraia mais clientes com Facebook Ads</Heading><br />
+                                        <Heading>Atraia mais clientes com Google Ads</Heading><br />
                                         <Text>
-                                        Anuncie na ferramenta Número #1 em Vendas na Internet. 
-                                        Exiba seus anúncios na hora certa para os seus clientes potenciais quando eles procurarem seus serviços e produtos no Google. 
+                                        Anuncie na ferramenta Número #1 em Vendas na Internet.
+                                        Exiba seus anúncios na hora certa para os seus clientes potenciais quando eles procurarem seus serviços e produtos no Google. <br />
                                         Aumente o número de clientes, ligações e vendas com anúncios inteligentes focados em conversão. <br /> <br />
                                         Criamos e Otimizamos sua campanha de anúncios para obter os melhores resultados com o melhor custo x benefício
                                         </Text>

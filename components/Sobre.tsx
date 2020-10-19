@@ -9,7 +9,7 @@ export default function Sobre() {
                 fontSize="4xl" >Quem é
             <Text fontWeight="bold" color="#FEAE0B" >KEDLLON KLEBER</Text>
             </Text><br /><br /><br />
-            <Text color="black" p={8} >
+            <Text color="black.500" p={8} >
                 Empreendedor com mais de 8 anos de experiência em Marketing Digital.<br />
             Progamador em React, Dart e outras,
             comecei a minha carreira em 2012,
