@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Portfolio() {
     return (
-        <Box bg="white" >
+        <Box bg="white" boxShadow="lg" >
             <SimpleGrid columns={2} spacingX="40px" spacingY="40px" p={6} >
                 <Box>
                     <Box backgroundImage="url('/images/efop.png')" h={[80,140,190,240]} bgSize="100%">

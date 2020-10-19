@@ -5,7 +5,7 @@ import DDD from './DDD'
 
 export default function Contato() {
     return (
-        <Box>
+        <Box boxShadow="lg" >
         <VStack bg="white" display="flex" >
             <Box>
                 <Text fontWeight="bold" fontSize={45} color="#FEAE0B" >

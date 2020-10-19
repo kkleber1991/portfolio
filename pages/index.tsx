@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Box, Image } from '@chakra-ui/core';
+import { Flex, Box, Image, Spacer } from '@chakra-ui/core';
 import Home from '../components/Home'
 import Footer from '../components/Footer';
 
@@ -14,6 +14,7 @@ function pages() {
       <Flex maxW="100%" justify="center" >
         <Box w="100%" pt={8} ><Home /></Box>
       </Flex>
+      <Spacer h={55} />
       <Footer />
     </Box>
   );

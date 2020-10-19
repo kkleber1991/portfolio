@@ -3,13 +3,13 @@ import React from 'react'
 
 export default function Sobre() {
     return (
-        <Box bg="white" >
+        <Box bg="white" boxShadow="lg" align="center" >
             <Text
                 align="center"
                 fontSize="4xl" >Quem é
             <Text fontWeight="bold" color="#FEAE0B" >KEDLLON KLEBER</Text>
             </Text><br /><br /><br />
-            <Text color="black.500" p={8} >
+            <Text color="black" >
                 Empreendedor com mais de 8 anos de experiência em Marketing Digital.<br />
             Progamador em React, Dart e outras,
             comecei a minha carreira em 2012,
